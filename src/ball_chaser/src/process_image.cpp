@@ -38,11 +38,11 @@ void process_image_callback(const sensor_msgs::Image img)
             
             if (pixel_pos < (float)img.step / 3.0)
             {
-                drive_robot(0.25, 0.25);
+                drive_robot(0.1, 0.25);
             }
             else if (pixel_pos > (float)(img.step * 2.0) / 3.0)
             {
-                drive_robot(0.25, -0.25);
+                drive_robot(0.1, -0.25);
             }
             else
             {
