@@ -1,8 +1,8 @@
-prefix=/home/robond/Desktop/Shubham/Project2_GoChaseIt/catkin_ws/devel
+prefix=/home/workspace/ROBOND_WhereAmI/devel
 
 Name: my_robot
 Description: Description of my_robot
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/robond/Desktop/Shubham/Project2_GoChaseIt/catkin_ws/devel/lib 
+Libs: -L${prefix}/lib 
 Requires: 
